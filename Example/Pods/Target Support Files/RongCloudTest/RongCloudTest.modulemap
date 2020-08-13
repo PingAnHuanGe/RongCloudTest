@@ -1,0 +1,6 @@
+framework module RongCloudTest {
+  umbrella header "RongCloudTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -32,11 +32,13 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'RongCloudTest/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'RongCloudTest' => ['RongCloudTest/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.requires_arc = true
+  s.static_framework = true
+  s.vendored_frameworks = "RongCloudIM/RongIMLib.framework"
+  s.libraries = "stdc++", "sqlite3", "z"
+  s.frameworks = "WebKit"
+  s.resources = "RongCloudIM/RCConfig.plist"
+  s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
+  s.vendored_libraries = "RongCloudIM/libopencore-amrnb.a","RongCloudIM/libopencore-amrwb.a","RongCloudIM/libvo-amrwbenc.a"
+   
 end

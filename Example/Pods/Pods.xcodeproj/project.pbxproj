@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0639A1CBD61EF520A8CF0F1D5CC47E50 /* Pods-RongCloudTest_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57DFA1DC7DBF626CA139A9837A42B868 /* Pods-RongCloudTest_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0804BA50DE0FDD030F5895C32B57F03B /* JFTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCFE56E2057A9FB4818CA512328456B /* JFTest.m */; };
+		080F0117A54D280F852913F08349EB11 /* RCConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = C42397E858CB297197F54153EEA16BB8 /* RCConfig.plist */; };
+		08E0403EC85C2C0E37D45ACA6AB13309 /* Pods-RongCloudTest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E32A51D66B4723D89110AD35C4A634 /* Pods-RongCloudTest_Tests-dummy.m */; };
+		2D6FBDEE808DFDB49DC1229D0ECC45D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		607A9287127472EA010FC136138DDBFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6248F5B8574FDAD7DCCB8AF628CC9503 /* Pods-RongCloudTest_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72760094BCBD30B603F3E53922A9FF24 /* Pods-RongCloudTest_Example-dummy.m */; };
+		7D7878B2B22A3FB38D0D70C7D587AED7 /* JFTest.h in Headers */ = {isa = PBXBuildFile; fileRef = C303E0D943D2E047EDCD0B1AA4576C78 /* JFTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		941A2B169B8640122F7FF978275E6A34 /* RongCloudTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC2A8EDAFCC1A008403F76C81B56CB9 /* RongCloudTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0463F9B326F647F5F12C11BF2A31B1B /* Pods-RongCloudTest_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05098F80C66C9DA6E804DB05FC2600EF /* Pods-RongCloudTest_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEEE5DA3839CC0E2398FC6D7306D66B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C999E8EA9F0641CBD48F7963563F4EE7 /* RongCloudTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B91BBEE48802C5107D6E31236212CBA2 /* RongCloudTest-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		478343A4A6CBAAC35679C0B0E4466DEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B13E600C5A606A4DB9887CAFD65EBEF6;
+			remoteInfo = RongCloudTest;
+		};
+		5A589FF0A16F41701D5E06C545F94AE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B83C9EB01D2D7BD120F946A6A5F47010;
+			remoteInfo = "Pods-RongCloudTest_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05098F80C66C9DA6E804DB05FC2600EF /* Pods-RongCloudTest_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RongCloudTest_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0E57EE775C3150FFF952E512B43B99B3 /* libvo-amrwbenc.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libvo-amrwbenc.a"; path = "RongCloudIM/libvo-amrwbenc.a"; sourceTree = "<group>"; };
+		11BE200950B50C3E819F951856FE6C77 /* Pods-RongCloudTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RongCloudTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		14BF4C92C355CABED5A819AB5CCCBBC6 /* RongCloudTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RongCloudTest-prefix.pch"; sourceTree = "<group>"; };
+		24BC231C51AE30FA9207B0E15B74B0AD /* Pods-RongCloudTest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RongCloudTest_Example.modulemap"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		363012025EBFFB1DCBE243091DB8AFF5 /* Pods-RongCloudTest_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RongCloudTest_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4526C05673ECEBEB984616A9FBD20D97 /* RongCloudTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RongCloudTest.xcconfig; sourceTree = "<group>"; };
+		57DFA1DC7DBF626CA139A9837A42B868 /* Pods-RongCloudTest_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RongCloudTest_Example-umbrella.h"; sourceTree = "<group>"; };
+		60C7327E679D254ED9332DCFB402EC8D /* Pods-RongCloudTest_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RongCloudTest_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		710382F3ADA2D93D4FC6093D2B8E5346 /* Pods-RongCloudTest_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RongCloudTest_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		72760094BCBD30B603F3E53922A9FF24 /* Pods-RongCloudTest_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RongCloudTest_Example-dummy.m"; sourceTree = "<group>"; };
+		752779138DACA5007DB9749920CC7A2C /* Pods_RongCloudTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RongCloudTest_Example.framework; path = "Pods-RongCloudTest_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77E15E8A00927982A0324ECFDCD692A6 /* RongCloudTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RongCloudTest.framework; path = RongCloudTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		780A2F044277D0E58DA7C38478628A65 /* libopencore-amrwb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrwb.a"; path = "RongCloudIM/libopencore-amrwb.a"; sourceTree = "<group>"; };
+		805A397A078AABB7A612010600063F30 /* Pods-RongCloudTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RongCloudTest_Tests.modulemap"; sourceTree = "<group>"; };
+		824F72F4C33C8E76BCC77C1B557FE95A /* Pods_RongCloudTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RongCloudTest_Tests.framework; path = "Pods-RongCloudTest_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BDEFCAAD505A6D61A8807190EFE7AF /* RongCloudTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RongCloudTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8B5F8D5680C1EB4C2131DC05D58AD6E3 /* RongIMLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RongIMLib.framework; path = RongCloudIM/RongIMLib.framework; sourceTree = "<group>"; };
+		90E32A51D66B4723D89110AD35C4A634 /* Pods-RongCloudTest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RongCloudTest_Tests-dummy.m"; sourceTree = "<group>"; };
+		9553807B4F3F526F8C20E4039005D5FF /* Pods-RongCloudTest_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RongCloudTest_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9631A6B09155FB658AED3A725C9D52BD /* RongCloudTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RongCloudTest-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A64B0AFC1B3AFD32CB743104AF559EDE /* Pods-RongCloudTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RongCloudTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AEF1EB62C2B44FC67B7B425289B41C99 /* RongCloudTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RongCloudTest.modulemap; sourceTree = "<group>"; };
+		AF165472D69A3DA0B81742E5CDA4BF4E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AFCFE56E2057A9FB4818CA512328456B /* JFTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JFTest.m; path = RongCloudTest/Classes/JFTest.m; sourceTree = "<group>"; };
+		B1F6E71495F7E5C2454EB59B7BF52B03 /* libopencore-amrnb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrnb.a"; path = "RongCloudIM/libopencore-amrnb.a"; sourceTree = "<group>"; };
+		B91BBEE48802C5107D6E31236212CBA2 /* RongCloudTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RongCloudTest-dummy.m"; sourceTree = "<group>"; };
+		C303E0D943D2E047EDCD0B1AA4576C78 /* JFTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JFTest.h; path = RongCloudTest/Classes/JFTest.h; sourceTree = "<group>"; };
+		C42397E858CB297197F54153EEA16BB8 /* RCConfig.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = RCConfig.plist; path = RongCloudIM/RCConfig.plist; sourceTree = "<group>"; };
+		CA9E8C2C3E1396BEE2875303C689A418 /* Pods-RongCloudTest_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RongCloudTest_Example-resources.sh"; sourceTree = "<group>"; };
+		CB3513F707004CEA72DEE0FCDEC748A3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CEC2A8EDAFCC1A008403F76C81B56CB9 /* RongCloudTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RongCloudTest-umbrella.h"; sourceTree = "<group>"; };
+		D0A8C1B9C0C59D05223BB99B17679FD1 /* Pods-RongCloudTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RongCloudTest_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E26C1AA8E29363D858B31D844D069CC5 /* Pods-RongCloudTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RongCloudTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EA712F8CC02A3CACEE288CE41387D03E /* Pods-RongCloudTest_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RongCloudTest_Example-Info.plist"; sourceTree = "<group>"; };
+		F9D8725A795DD7AFF9D05B6AD8324442 /* Pods-RongCloudTest_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RongCloudTest_Tests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2FF1E56BADDDD764E5688258CBBAC25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEE5DA3839CC0E2398FC6D7306D66B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA334E3C5B2D86EA61BA754479268429 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6FBDEE808DFDB49DC1229D0ECC45D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F4454EC70F14CB195CAE76C7A640DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607A9287127472EA010FC136138DDBFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1667A8F6F5FAFF6416E8FB90A0BF0A75 /* Pods-RongCloudTest_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				805A397A078AABB7A612010600063F30 /* Pods-RongCloudTest_Tests.modulemap */,
+				363012025EBFFB1DCBE243091DB8AFF5 /* Pods-RongCloudTest_Tests-acknowledgements.markdown */,
+				9553807B4F3F526F8C20E4039005D5FF /* Pods-RongCloudTest_Tests-acknowledgements.plist */,
+				90E32A51D66B4723D89110AD35C4A634 /* Pods-RongCloudTest_Tests-dummy.m */,
+				F9D8725A795DD7AFF9D05B6AD8324442 /* Pods-RongCloudTest_Tests-Info.plist */,
+				05098F80C66C9DA6E804DB05FC2600EF /* Pods-RongCloudTest_Tests-umbrella.h */,
+				11BE200950B50C3E819F951856FE6C77 /* Pods-RongCloudTest_Tests.debug.xcconfig */,
+				E26C1AA8E29363D858B31D844D069CC5 /* Pods-RongCloudTest_Tests.release.xcconfig */,
+			);
+			name = "Pods-RongCloudTest_Tests";
+			path = "Target Support Files/Pods-RongCloudTest_Tests";
+			sourceTree = "<group>";
+		};
+		692EDA78B2401613B561820403AAC377 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C42397E858CB297197F54153EEA16BB8 /* RCConfig.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		98FA56848C185056CDDCC178C562F9CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1F6E71495F7E5C2454EB59B7BF52B03 /* libopencore-amrnb.a */,
+				780A2F044277D0E58DA7C38478628A65 /* libopencore-amrwb.a */,
+				0E57EE775C3150FFF952E512B43B99B3 /* libvo-amrwbenc.a */,
+				8B5F8D5680C1EB4C2131DC05D58AD6E3 /* RongIMLib.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABECA8272488069BB26EA1161EF5562D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEF1EB62C2B44FC67B7B425289B41C99 /* RongCloudTest.modulemap */,
+				4526C05673ECEBEB984616A9FBD20D97 /* RongCloudTest.xcconfig */,
+				B91BBEE48802C5107D6E31236212CBA2 /* RongCloudTest-dummy.m */,
+				9631A6B09155FB658AED3A725C9D52BD /* RongCloudTest-Info.plist */,
+				14BF4C92C355CABED5A819AB5CCCBBC6 /* RongCloudTest-prefix.pch */,
+				CEC2A8EDAFCC1A008403F76C81B56CB9 /* RongCloudTest-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RongCloudTest";
+			sourceTree = "<group>";
+		};
+		AC399C3C4201A5580149B2103DB3D354 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AF165472D69A3DA0B81742E5CDA4BF4E /* LICENSE */,
+				CB3513F707004CEA72DEE0FCDEC748A3 /* README.md */,
+				84BDEFCAAD505A6D61A8807190EFE7AF /* RongCloudTest.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C08601801CC5AF1B75A64AD261AF8C5B /* Pods-RongCloudTest_Example */ = {
+			isa = PBXGroup;
+			children = (
+				24BC231C51AE30FA9207B0E15B74B0AD /* Pods-RongCloudTest_Example.modulemap */,
+				60C7327E679D254ED9332DCFB402EC8D /* Pods-RongCloudTest_Example-acknowledgements.markdown */,
+				710382F3ADA2D93D4FC6093D2B8E5346 /* Pods-RongCloudTest_Example-acknowledgements.plist */,
+				72760094BCBD30B603F3E53922A9FF24 /* Pods-RongCloudTest_Example-dummy.m */,
+				EA712F8CC02A3CACEE288CE41387D03E /* Pods-RongCloudTest_Example-Info.plist */,
+				CA9E8C2C3E1396BEE2875303C689A418 /* Pods-RongCloudTest_Example-resources.sh */,
+				57DFA1DC7DBF626CA139A9837A42B868 /* Pods-RongCloudTest_Example-umbrella.h */,
+				A64B0AFC1B3AFD32CB743104AF559EDE /* Pods-RongCloudTest_Example.debug.xcconfig */,
+				D0A8C1B9C0C59D05223BB99B17679FD1 /* Pods-RongCloudTest_Example.release.xcconfig */,
+			);
+			name = "Pods-RongCloudTest_Example";
+			path = "Target Support Files/Pods-RongCloudTest_Example";
+			sourceTree = "<group>";
+		};
+		C92A847DC0D28A4E0F2AE917C9512BA5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFFD72D1961614F52C245AEBDB9CD9BB /* RongCloudTest */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C92A847DC0D28A4E0F2AE917C9512BA5 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F14094098FF7C0EFF8EF769347770E62 /* Products */,
+				D4694A667D70E2B2BE7822DA8440632B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4694A667D70E2B2BE7822DA8440632B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C08601801CC5AF1B75A64AD261AF8C5B /* Pods-RongCloudTest_Example */,
+				1667A8F6F5FAFF6416E8FB90A0BF0A75 /* Pods-RongCloudTest_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F14094098FF7C0EFF8EF769347770E62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				752779138DACA5007DB9749920CC7A2C /* Pods_RongCloudTest_Example.framework */,
+				824F72F4C33C8E76BCC77C1B557FE95A /* Pods_RongCloudTest_Tests.framework */,
+				77E15E8A00927982A0324ECFDCD692A6 /* RongCloudTest.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFFD72D1961614F52C245AEBDB9CD9BB /* RongCloudTest */ = {
+			isa = PBXGroup;
+			children = (
+				C303E0D943D2E047EDCD0B1AA4576C78 /* JFTest.h */,
+				AFCFE56E2057A9FB4818CA512328456B /* JFTest.m */,
+				98FA56848C185056CDDCC178C562F9CC /* Frameworks */,
+				AC399C3C4201A5580149B2103DB3D354 /* Pod */,
+				692EDA78B2401613B561820403AAC377 /* Resources */,
+				ABECA8272488069BB26EA1161EF5562D /* Support Files */,
+			);
+			name = RongCloudTest;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2311FFBE350A056F9014C4574E45BFC1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D7878B2B22A3FB38D0D70C7D587AED7 /* JFTest.h in Headers */,
+				941A2B169B8640122F7FF978275E6A34 /* RongCloudTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF6D46FC7DADCEB6CF5E4566DDDDE25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0463F9B326F647F5F12C11BF2A31B1B /* Pods-RongCloudTest_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC34034E2F1E8418F61BF16C2DB24D57 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0639A1CBD61EF520A8CF0F1D5CC47E50 /* Pods-RongCloudTest_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B13E600C5A606A4DB9887CAFD65EBEF6 /* RongCloudTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC72910ECE0EB0AD8B78A3125B0C07DA /* Build configuration list for PBXNativeTarget "RongCloudTest" */;
+			buildPhases = (
+				2311FFBE350A056F9014C4574E45BFC1 /* Headers */,
+				AB36D5012BBE3FAAABBE60E31F8DCA55 /* Sources */,
+				BA334E3C5B2D86EA61BA754479268429 /* Frameworks */,
+				F27FD3703463E2EF71394CE89D3A1FF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RongCloudTest;
+			productName = RongCloudTest;
+			productReference = 77E15E8A00927982A0324ECFDCD692A6 /* RongCloudTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B83C9EB01D2D7BD120F946A6A5F47010 /* Pods-RongCloudTest_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5D80E9CD79C6A35DE2A90B8A9D55CC4 /* Build configuration list for PBXNativeTarget "Pods-RongCloudTest_Example" */;
+			buildPhases = (
+				CC34034E2F1E8418F61BF16C2DB24D57 /* Headers */,
+				4B089E92A4C778684B61562F4ABABBC5 /* Sources */,
+				D5F4454EC70F14CB195CAE76C7A640DF /* Frameworks */,
+				9772555D658860FA4C78A376FFA476F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACB46C8F961E7E29D1EAC0F90A8F7707 /* PBXTargetDependency */,
+			);
+			name = "Pods-RongCloudTest_Example";
+			productName = "Pods-RongCloudTest_Example";
+			productReference = 752779138DACA5007DB9749920CC7A2C /* Pods_RongCloudTest_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EEF8A36FAD5CB512967E0B83225D06DA /* Pods-RongCloudTest_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9FB8E7631AC7AA5ABB697F33D8B968 /* Build configuration list for PBXNativeTarget "Pods-RongCloudTest_Tests" */;
+			buildPhases = (
+				7AF6D46FC7DADCEB6CF5E4566DDDDE25 /* Headers */,
+				759933EE73E7B3788EB659EB31C631BE /* Sources */,
+				A2FF1E56BADDDD764E5688258CBBAC25 /* Frameworks */,
+				2D861CF4D9F1C688D0065D74CB6DE6CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6C880711AD8EF6A04E01F460C3E36A9 /* PBXTargetDependency */,
+			);
+			name = "Pods-RongCloudTest_Tests";
+			productName = "Pods-RongCloudTest_Tests";
+			productReference = 824F72F4C33C8E76BCC77C1B557FE95A /* Pods_RongCloudTest_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F14094098FF7C0EFF8EF769347770E62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B83C9EB01D2D7BD120F946A6A5F47010 /* Pods-RongCloudTest_Example */,
+				EEF8A36FAD5CB512967E0B83225D06DA /* Pods-RongCloudTest_Tests */,
+				B13E600C5A606A4DB9887CAFD65EBEF6 /* RongCloudTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D861CF4D9F1C688D0065D74CB6DE6CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9772555D658860FA4C78A376FFA476F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F27FD3703463E2EF71394CE89D3A1FF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080F0117A54D280F852913F08349EB11 /* RCConfig.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B089E92A4C778684B61562F4ABABBC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6248F5B8574FDAD7DCCB8AF628CC9503 /* Pods-RongCloudTest_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759933EE73E7B3788EB659EB31C631BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E0403EC85C2C0E37D45ACA6AB13309 /* Pods-RongCloudTest_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB36D5012BBE3FAAABBE60E31F8DCA55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0804BA50DE0FDD030F5895C32B57F03B /* JFTest.m in Sources */,
+				C999E8EA9F0641CBD48F7963563F4EE7 /* RongCloudTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACB46C8F961E7E29D1EAC0F90A8F7707 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RongCloudTest;
+			target = B13E600C5A606A4DB9887CAFD65EBEF6 /* RongCloudTest */;
+			targetProxy = 478343A4A6CBAAC35679C0B0E4466DEC /* PBXContainerItemProxy */;
+		};
+		C6C880711AD8EF6A04E01F460C3E36A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RongCloudTest_Example";
+			target = B83C9EB01D2D7BD120F946A6A5F47010 /* Pods-RongCloudTest_Example */;
+			targetProxy = 5A589FF0A16F41701D5E06C545F94AE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B0B20631C690A3E73466A7F4FB70737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4526C05673ECEBEB984616A9FBD20D97 /* RongCloudTest.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RongCloudTest/RongCloudTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RongCloudTest/RongCloudTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/RongCloudTest/RongCloudTest.modulemap";
+				PRODUCT_MODULE_NAME = RongCloudTest;
+				PRODUCT_NAME = RongCloudTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1D365A88024EC5D2B25DB87FAE86FC8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11BE200950B50C3E819F951856FE6C77 /* Pods-RongCloudTest_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RongCloudTest_Tests/Pods-RongCloudTest_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RongCloudTest_Tests/Pods-RongCloudTest_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5699073B0EE19F7A50190FE3860261B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E26C1AA8E29363D858B31D844D069CC5 /* Pods-RongCloudTest_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RongCloudTest_Tests/Pods-RongCloudTest_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RongCloudTest_Tests/Pods-RongCloudTest_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B181E85F79C81F942D2D71BFC525E48D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0A8C1B9C0C59D05223BB99B17679FD1 /* Pods-RongCloudTest_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RongCloudTest_Example/Pods-RongCloudTest_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RongCloudTest_Example/Pods-RongCloudTest_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECDAC1A2ADE6029D3D3F25E8D130E172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A64B0AFC1B3AFD32CB743104AF559EDE /* Pods-RongCloudTest_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RongCloudTest_Example/Pods-RongCloudTest_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RongCloudTest_Example/Pods-RongCloudTest_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F7CD7FEB83444315BBA6011CFB580580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4526C05673ECEBEB984616A9FBD20D97 /* RongCloudTest.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RongCloudTest/RongCloudTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RongCloudTest/RongCloudTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/RongCloudTest/RongCloudTest.modulemap";
+				PRODUCT_MODULE_NAME = RongCloudTest;
+				PRODUCT_NAME = RongCloudTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC72910ECE0EB0AD8B78A3125B0C07DA /* Build configuration list for PBXNativeTarget "RongCloudTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B0B20631C690A3E73466A7F4FB70737 /* Debug */,
+				F7CD7FEB83444315BBA6011CFB580580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5D80E9CD79C6A35DE2A90B8A9D55CC4 /* Build configuration list for PBXNativeTarget "Pods-RongCloudTest_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECDAC1A2ADE6029D3D3F25E8D130E172 /* Debug */,
+				B181E85F79C81F942D2D71BFC525E48D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9FB8E7631AC7AA5ABB697F33D8B968 /* Build configuration list for PBXNativeTarget "Pods-RongCloudTest_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D365A88024EC5D2B25DB87FAE86FC8E /* Debug */,
+				5699073B0EE19F7A50190FE3860261B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

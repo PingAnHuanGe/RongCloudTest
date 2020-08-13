@@ -61,12 +61,12 @@
 		6E340A77B0ADB52E3E9F3DEE /* Pods_RongCloudTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RongCloudTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8D2559B522081BDD83AE4B85 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8D2559B522081BDD83AE4B85 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8D9CDB002E28311CB40BAD03 /* Pods-RongCloudTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RongCloudTest_Tests.release.xcconfig"; path = "Target Support Files/Pods-RongCloudTest_Tests/Pods-RongCloudTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		97A647581B393EC0AFF47EEF /* RongCloudTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RongCloudTest.podspec; path = ../RongCloudTest.podspec; sourceTree = "<group>"; };
+		97A647581B393EC0AFF47EEF /* RongCloudTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RongCloudTest.podspec; path = ../RongCloudTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9942C797A388F0980EAE4941 /* Pods-RongCloudTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RongCloudTest_Example.release.xcconfig"; path = "Target Support Files/Pods-RongCloudTest_Example/Pods-RongCloudTest_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A23962305788AE294D3D87FD /* Pods_RongCloudTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RongCloudTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBA4392E0C649AB6785B58F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EBA4392E0C649AB6785B58F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				5C9C49EDF3411C5B370B69B6 /* Pods-RongCloudTest_Tests.debug.xcconfig */,
 				8D9CDB002E28311CB40BAD03 /* Pods-RongCloudTest_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				7CC8000B37756F8AA8477667 /* [CP] Embed Pods Frameworks */,
+				AB32B5CD31C65688FAE03E8A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -295,24 +295,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7CC8000B37756F8AA8477667 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RongCloudTest_Example/Pods-RongCloudTest_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/RongCloudTest/RongCloudTest.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RongCloudTest.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RongCloudTest_Example/Pods-RongCloudTest_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		A6164ECCB031872BA834B7C3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -333,6 +315,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB32B5CD31C65688FAE03E8A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RongCloudTest_Example/Pods-RongCloudTest_Example-resources.sh",
+				"${PODS_ROOT}/../../RongCloudIM/RCConfig.plist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCConfig.plist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RongCloudTest_Example/Pods-RongCloudTest_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FEEC89D7AD84DCA8CF00A8AB /* [CP] Check Pods Manifest.lock */ = {

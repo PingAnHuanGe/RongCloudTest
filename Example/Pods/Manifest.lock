@@ -1,0 +1,16 @@
+PODS:
+  - RongCloudTest (0.1.0)
+
+DEPENDENCIES:
+  - RongCloudTest (from `../`)
+
+EXTERNAL SOURCES:
+  RongCloudTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RongCloudTest: f74651e6f9ec7d980bb1ee0691953126d5b60299
+
+PODFILE CHECKSUM: e31b1668e01efe2db495a219d5ffc9ccac290d96
+
+COCOAPODS: 1.8.4

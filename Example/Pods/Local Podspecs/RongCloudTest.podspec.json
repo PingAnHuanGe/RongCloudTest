@@ -1,0 +1,40 @@
+{
+  "name": "RongCloudTest",
+  "version": "0.1.0",
+  "summary": "A short description of RongCloudTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/PingAnHuanGe/RongCloudTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "PingAnHuanGe": "fuchanghuan@me.com"
+  },
+  "source": {
+    "git": "https://github.com/PingAnHuanGe/RongCloudTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RongCloudTest/Classes/**/*",
+  "requires_arc": true,
+  "static_framework": true,
+  "vendored_frameworks": "RongCloudIM/RongIMLib.framework",
+  "libraries": [
+    "stdc++",
+    "sqlite3",
+    "z"
+  ],
+  "frameworks": "WebKit",
+  "resources": "RongCloudIM/RCConfig.plist",
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  },
+  "vendored_libraries": [
+    "RongCloudIM/libopencore-amrnb.a",
+    "RongCloudIM/libopencore-amrwb.a",
+    "RongCloudIM/libvo-amrwbenc.a"
+  ]
+}
