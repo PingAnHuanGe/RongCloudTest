@@ -7,6 +7,7 @@
 //
 
 #import "JFViewController.h"
+#import <JFTest.h>
 
 @interface JFViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    JFTest *testObjc = [JFTest new];
+    [testObjc test];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
